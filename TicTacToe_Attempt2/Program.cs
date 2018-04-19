@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace TicTacToe
+namespace TicTacToe_Attempt2
 {
     static class Program
     {
@@ -16,7 +16,7 @@ namespace TicTacToe
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainForm());
+            Application.Run(new GameWindow());
         }
     }
 }
